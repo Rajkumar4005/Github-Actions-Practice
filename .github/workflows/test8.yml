@@ -10,7 +10,7 @@ jobs:
               run: echo "reddy" | tr 'a-z' 'A-Z'
 
             - name: word count
-              run: echo "GitHub Actions Training" | wc -w
+              run: echo "GitHub Actions" | wc -w
 
 
             
