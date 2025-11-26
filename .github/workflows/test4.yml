@@ -1,6 +1,6 @@
-name: File Oprations In GitHub
+name: Workflow dispatch File Oprations In GitHub
 
-on: push 
+on: workflow_dispatch
 
 jobs:
     files:
