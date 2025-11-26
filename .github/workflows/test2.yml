@@ -2,9 +2,6 @@ name: First Workflow
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:   #runs the workflow manually
-
 jobs:
   basic-demo:
     runs-on: ubuntu-latest
