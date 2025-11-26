@@ -1,0 +1,16 @@
+name: Strings Demo
+
+on: workflow_dispatch
+
+jobs: 
+    strings:
+        runs-on: ubuntu-latest
+        steps:
+            - name: convert to uppercase
+              run: echo "reddy" | tr 'a-z' 'A-Z'
+
+            - name: word count
+              run: echo "GitHub Actions Training" | wc -w
+
+
+            
