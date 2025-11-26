@@ -9,3 +9,4 @@ jobs:
       - run: echo "Hello KK FUNDA!"
       - run: date
       - run: ls
+      - run: pwd
