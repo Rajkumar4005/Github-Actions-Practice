@@ -1,6 +1,6 @@
 name: System Info
 
-on: [push]
+on: push
 
 jobs:
   info:
