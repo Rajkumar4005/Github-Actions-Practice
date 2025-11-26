@@ -1,6 +1,6 @@
 name: File Oprations In GitHub
 
-on: workflow_dispatch 
+on: push 
 
 jobs:
     files:
@@ -31,3 +31,4 @@ jobs:
 
 
            
+
