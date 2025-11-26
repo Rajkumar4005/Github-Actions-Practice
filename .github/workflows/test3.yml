@@ -1,6 +1,6 @@
 name: KK FUNDA Demo Workflow
 
-on: push
+on: workflow_dispatch
 
 jobs:
   build:
@@ -9,4 +9,5 @@ jobs:
       - run: echo "checkout suucssfully"
       - run: echo "created artifacts"
       - run: echo "artifact pushed suucssfully"
+
       - run: echo "deployment done."
