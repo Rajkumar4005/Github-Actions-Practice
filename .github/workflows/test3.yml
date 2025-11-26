@@ -1,18 +1,9 @@
-name: Testing Workflow
+name: KK FUNDA Demo Workflow
 
 on: push
 
 jobs:
-    test-job:
-        runs-on: ubuntu-latest
-
-        steps:
-            - name: Hello display
-              run: echo "Hello"
-
-            -name: Disply date 
-             run: date
-
-
-
-
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello KK FUNDA!"
