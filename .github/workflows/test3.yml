@@ -1,0 +1,18 @@
+name: Testing Workflow
+
+on: push
+
+jobs:
+    test-job:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Hello display
+              run: echo "Hello"
+
+            -name: Disply date 
+             run: date
+
+
+
+
