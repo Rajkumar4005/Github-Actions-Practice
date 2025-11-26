@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
             - name: create a file 
-              run: echo "Hello rajkumar here ,welcome to github actions" > devops.txt
+              run: echo "Hello NANDAKUMAR here ,welcome to Hotel SITAR GRAND" > devops.txt
               
             - name: display the content of a file
               run: cat devops.txt
