@@ -1,6 +1,6 @@
 name: System Info
 
-on: push
+on: workflow_dispatch
 
 jobs:
   info:
@@ -13,4 +13,5 @@ jobs:
         run: uname -r
 
       - name: Show OS info
+
         run: cat /etc/os-release
