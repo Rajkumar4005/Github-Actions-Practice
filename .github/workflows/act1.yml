@@ -1,1 +1,19 @@
+name: show the file content 
 
+on: 
+    workflow_dispatch:
+
+jobs: 
+    show:
+        runs-on: ubuntu-latest
+
+        steps: 
+            -name: checkout repo
+             uses: actions/checkout@v4
+
+            -name: list files 
+             run: ls -lrth
+
+            -name: display the file content
+             run: cat sample.txt
+            
