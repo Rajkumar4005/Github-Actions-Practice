@@ -13,6 +13,3 @@ jobs:
 
       - name: List files
         run: ls -lrth
-
-      - name: Display the file content
-        run: cat sample.txt
