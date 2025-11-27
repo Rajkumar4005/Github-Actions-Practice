@@ -12,5 +12,8 @@ jobs:
             - name: word count
               run: echo "GitHub Actions" | wc -w
 
+            - name: print working directory
+              run: pwd   
+
 
             
