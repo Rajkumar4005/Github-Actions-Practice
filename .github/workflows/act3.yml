@@ -1,0 +1,15 @@
+name: Usage of pipe
+
+on: push
+
+jobs: 
+    pipe: 
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Multiple echos
+              run: |
+                echo "Hi"
+                echo "123456"
+                ls -lrth
+                date
