@@ -1,7 +1,7 @@
 name: show the file content
 
 on:
-  workflow_dispatch:
+  push:
 
 jobs:
   show:
@@ -13,3 +13,8 @@ jobs:
 
       - name: List files
         run: ls -lrth
+      
+       -name: print working directory 
+        run: pwd 
+
+
