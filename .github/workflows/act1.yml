@@ -13,8 +13,6 @@ jobs:
 
       - name: List files
         run: ls -lrth
-      
-       -name: print working directory 
-        run: pwd 
 
-
+      - name: Print working directory
+        run: pwd
