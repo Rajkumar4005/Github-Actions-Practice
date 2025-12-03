@@ -11,7 +11,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Give execute permission to script
+      - name: Give execute Permission to script
         run: chmod +x myscript.sh
 
       - name: Run the shell script
