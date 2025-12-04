@@ -29,3 +29,11 @@ jobs:
 
       - name: Show file content
         run: cat Myfile.txt
+
+      - name: Show me the files list 
+        run: ls -lrth 
+        
+
+
+
+    
