@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "This is Reddy Shell Script"
+echo "Hi,This is RajkumarReddy Shell Script"
 echo "Current Date:"
 date
 
