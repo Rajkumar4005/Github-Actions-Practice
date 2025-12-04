@@ -32,7 +32,4 @@ jobs:
 
       - name: Show me the files list 
         run: ls -lrth 
-        run: echo "Welcome to KKFUNDA"
-        run: echo "KKFUNDA Training"
-        run: echo "This is KKFUNDA workflow"
-        run: echo "Thanks from KKFUNDA"
+     
