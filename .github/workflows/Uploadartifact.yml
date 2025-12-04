@@ -9,13 +9,13 @@ jobs:
 
     steps:
       - name: Create file
-        run: echo "Data file" > data.txt
+        run: echo "Hello We are working on GIthub actions wirh manual triggering" > Myfile.txt
 
       - name: Upload file as artifact
         uses: actions/upload-artifact@v4
         with:
           name: datafile
-          path: data.txt
+          path: Myfile.txt
 
   job2:
     runs-on: ubuntu-latest
@@ -28,4 +28,4 @@ jobs:
           name: datafile
 
       - name: Show file content
-        run: cat data.txt
+        run: cat Myfile.txt
